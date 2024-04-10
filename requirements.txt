@@ -2,3 +2,4 @@ fastapi
 pydantic
 flask
 chatterbot
+django-wsgi

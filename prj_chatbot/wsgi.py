@@ -7,10 +7,8 @@ For more information on this file, see
 https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
 """
 
+from django.core.wsgi import get_wsgi_application
 import os
 
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'prj_chatbot.settings')
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'prj_chatbot_master.settings')
 application = get_wsgi_application()

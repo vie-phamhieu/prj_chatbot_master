@@ -8,7 +8,7 @@ def index(request):
 def call_flask_api(request):
     try:
         # Gửi yêu cầu GET đến API Flask
-        response = requests.get('https://khf7bsyelj.execute-api.ap-southeast-1.amazonaws.com/chatbot')
+        response = requests.get('https://5i95laflyg.execute-api.ap-southeast-1.amazonaws.com/api/')
         # Xử lý dữ liệu từ response nếu cần
         data = response.json()
         # Trả về dữ liệu từ API Flask dưới dạng JSON
